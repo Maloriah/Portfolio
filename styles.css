@@ -1,0 +1,68 @@
+/*This file contains the styling of my HTML elements*/
+/* hero background image */
+.bgimage {
+        height: 100vh;
+        background: url('Images/Bgimage.jpeg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+    }
+
+
+/* Text CSS above hero image */
+
+/* About Section Image CSS */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* Services Section CSS */
+.educationText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.educationIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .educationIcon {
+    color: #cadaca;
+}
+
+.educationText:hover {
+    border: 1px solid rgb(192, 142, 142);
+}
+/* Ensure the navbar is always visible */
+.navbar {
+    position: fixed;  /* Fixed at the top of the page */
+    top: 0;
+    left: 0;
+    width: 100%;  /* Full width */
+    background-color: rgba(241, 217, 217, 0.5);  /* Default background color */
+    transition: background-color 0.3s ease;  /* Smooth transition for color change */
+    z-index: 1000;  /* Keep the navbar on top of other elements */
+}
+
+/* When scrolled, make the navbar darker */
+.navbarDark {
+    background-color: rgb(192, 142, 142);  /* Darker background when scrolling */
+    color: white;  /* Change text color to white */
+}
+
+/* Additional optional styling for navbar links */
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+
+.navbarDark .navbar-nav .nav-link {
+    color: whitesmoke;  /* Change nav links to white when the navbar is dark */
+}
+.button{
+    background-color: bisque;
+}
